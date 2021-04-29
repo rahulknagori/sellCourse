@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script defer src="/script/form.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html"><i class="fas fa-long-arrow-alt-left icon"></i></a>
+        <div class="main">
+            <div class="content">
+                <div class="center">
+                <h3 id="heading">Sign in</h3>
+                <div style=" color:red"id="errorMessage"></div>
+                <form id="form" action="/public/HTML/user.html">
+                    <input class="form-input" id="email" type="email" name="email" id="" placeholder="Email address">
+                    <input class="form-input" id="password" type="password" name="password" id="" placeholder="Password(must contain uppercase & num)">
+                    <button id="btn" type="submit">LOGIN</button>
+                    <a href=""><p class="link-style">Forgot Password?</p></a>
+                    <a href=""><p class="link-style" id="link-id">Create Account</p></a>
+                    <p></p>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.783);
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  width: 90vw;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.video-container {
+  width: 70%;
+}
+
+video:focus {
+  outline: none;
+}
+
+.video-class {
+  width: 100%;
+  height: auto;
+}
+
+/* sidebar */
+.sidebar {
+  width: 30%;
+  margin-left: 0.5rem;
+}
+
+.heading-container {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #e6f2f5;
+}
+
+.content {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.7rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6f2f5;
+}
+
+.inner {
+  display: flex;
+  background-color: #f7f8fa;
+  position: relative;
+  width: 100%;
+}
+
+.img-container {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.inner-text {
+  width: 100%;
+}
+
+.sidebar-contentTitle {
+  display: inline;
+  font-family: "Lucida Grande", "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-left: 0.4rem;
+}
+
+.sub-heading {
+  margin-top: 0.1rem;
+  margin-left: 0.4rem;
+}
+
+.list {
+  background-color: #e6f2f5;
+  margin-top: 0.2rem;
+  width: 100%;
+  display: none;
+}
+
+.list-ul {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.list-li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.list-para {
+  display: inline;
+  margin-right: 1rem;
+  margin-left: 0.6rem;
+}
+
+.list-heading {
+  margin-left: 1rem;
+}
+
+.list:nth-child(1) {
+  background-color: white;
+}
+
+/* description section */
+.desc {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+.desc-inner1 {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.desc-user {
+  width: 30%;
+  height: 4rem;
+  display: flex;
+}
+
+.userImg-div {
+  width: 40%;
+  height: 3rem;
+}
+
+.user-img {
+  width: 100%;
+  height: 100%;
+}
+
+.desc-other {
+  width: 100%;
+  display: flex;
+}
+
+.desc-other-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.btn-download,
+.btn-buy {
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid rgb(171, 182, 208);
+}
+
+.btn-download:hover,
+.btn-buy:hover {
+  background-color: #0f7c90;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.desc-inner2 {
+  margin-top: 1rem;
+}

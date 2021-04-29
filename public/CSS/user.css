@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.783);
+}
+
+body {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 3rem;
+}
+
+.nav {
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.1px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  width: 30%;
+  height: auto;
+}
+
+.brand-image {
+  width: 50%;
+  height: 100%;
+}
+
+.brand-logo-image {
+  width: 100%;
+  height: auto;
+}
+
+.other {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.upload,
+.notification-icon,
+.profile-image {
+  margin-right: 1.3rem;
+}
+
+.notification-icon {
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.notification-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.dropdown-content {
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  display: none;
+  background-color: white;
+  min-width: 25vw;
+  min-height: 70vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.notifctn-dropdwn {
+  padding-top: 1rem;
+  margin-left: 0.4rem;
+}
+
+.profile-image {
+  width: 2rem;
+  background-color: rgb(21, 255, 0);
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-image-class {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-image-class:hover {
+  opacity: 0.8;
+}
+
+.nav-btn {
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid rgb(171, 182, 208);
+}
+
+.nav-btn:hover {
+  background-color: #0f7c90;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* main section */
+.main-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+/* sidebar */
+.sidebar {
+  width: 20%;
+  background-color: #e6f2f5;
+  height: 30rem;
+  position: absolute;
+}
+
+.username-div {
+  background-color: black;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.username {
+  color: white;
+}
+
+.sidebar-elem {
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid grey;
+}
+
+.sidebar-elem:hover,
+.username:hover {
+  color: grey;
+}
+
+.username,
+.sidebar-elem {
+  margin-left: 0.4rem;
+}
+
+/* main content */
+.main-content {
+  width: 80%;
+  margin-left: 20%;
+  height: auto;
+  position: absolute;
+}
+
+.my-videos {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative; */
+}
+
+.myvid-image {
+  float: left;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0.4rem;
+  width: 15rem;
+  height: auto;
+}
+
+.myvid-image:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s;
+}

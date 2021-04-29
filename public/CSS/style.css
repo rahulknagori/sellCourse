@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.783);
+}
+
+body {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+}
+/* header */
+.header-img {
+  width: 90vw;
+  height: 24rem;
+  background-color: #2682bb;
+  object-fit: cover;
+}
+
+.nav {
+  width: 90vw;
+  height: auto;
+}
+
+/* Navbar */
+.nav-ul {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 0.1px solid grey;
+}
+.flex-li {
+  display: flex;
+  width: 40%;
+}
+
+.flex-li-end {
+  display: flex;
+  width: 70%;
+  justify-content: flex-end;
+}
+
+.nav-li {
+  font-size: 1.1rem;
+  position: relative;
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+}
+
+.brand-logo {
+  width: 15rem;
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20vw;
+  min-height: 40vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-btn {
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid rgb(171, 182, 208);
+}
+
+.nav-btn:hover {
+  background-color: #0f7c90;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nav-btn:nth-child(2) {
+  border: 2px solid rgb(255, 0, 55);
+}
+
+/* video and Icon button section */
+/* sliding button Icon */
+.vidIconBtn {
+  display: flex;
+  cursor: pointer;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+}
+
+.vidIconBtn .btn-slide {
+  width: 100%;
+  font-size: 3rem;
+  color: #0f7c90;
+}
+
+.video-container,
+.slidevideo-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.video1 {
+  transition: 0.2s ease-in;
+  width: 22%;
+  position: relative;
+  height: auto;
+}
+
+.video1:hover {
+  opacity: 0.7;
+  transition: 0.2s ease-in;
+}
+/* image section */
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.4rem;
+}
+
+/* content div */
+
+.title,
+.price {
+  font-family: "Roboto", sans-serif;
+}
+.author {
+  color: grey;
+}
+
+.downloads {
+  color: orange;
+}
+
+/* sliding div section */
+
+.slidevideo-container {
+  transition: all 1s;
+  position: relative;
+}
+
+.sliding-div {
+  display: none;
+}
+
+#slide-left {
+  opacity: 0;
+  left: 100%;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 15rem;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  height: 90%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.926);
+}
+
+.column-1,
+.column-2 {
+  width: 30%;
+  margin-left: 1rem;
+  margin-right: 7rem;
+  margin-top: 1.2rem;
+}
+
+.column-1 p,
+.column-2 p {
+  margin-bottom: 0.7rem;
+  color: white;
+}
+
+.copyright-div {
+  width: 40%;
+  display: flex;
+  float: right;
+}
+
+.footer-copyright {
+  width: 100%;
+  color: white;
+  margin-top: 9.2rem;
+}
+
+/* media queries */
+@media screen and (max-width: 1000px) {
+  .video-container,
+  .slidevideo-container {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .video1 {
+    transition: 0.2s ease-in;
+    width: 40%;
+    position: relative;
+    height: auto;
+  }
+}

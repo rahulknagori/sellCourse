@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90vw;
+  height: auto;
+}
+
+.main {
+  width: 40vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.form-div {
+  margin-top: 10rem;
+}
+
+.form-main {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-all {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(0, 123, 255);
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid rgb(171, 182, 208);
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Choose Thumbnail";
+  border: 1px solid rgb(0, 123, 255);
+  border-radius: 3px;
+  padding: 0.2rem;
+  outline: none;
+  cursor: pointer;
+}

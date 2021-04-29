@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <!-- Nav section -->
+            <div class="nav">
+                <ul class="nav-ul">
+                    <div class="flex-li">
+                        <li class="nav-li"><a href="#home">
+                                <div class="brand-logo">
+                                    <img class="brand-logo-img" src="/public/images-and-videos/classes-nav-brand.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <div class="dropdown">
+                            <li class="nav-li"><button class="dropbtn">Category</button><i style="margin-left: 0.5rem;" class="fas fa-caret-down"></i></li>
+                            <!-- dropdown-content (Content dynamically rendered) -->
+                            <div class="dropdown-content"></div>
+                        </div>
+                    </div>
+                    <div class="flex-li-end">
+                        <li class="nav-li"><a href="./upload.html">Upload Videos</a></li>
+                        <li class="nav-li"><a href="">Cart |</a></li>
+                        <li class="nav-li"><a href="login.html"><button class="nav-btn" type="button">Log in</button></a></li>
+                        <li class="nav-li"><a href=""><button class="nav-btn" type="button"><a href="#home"></a>Signup</button></a></li>
+                    </div>
+                </ul>
+            </div>
+            <!-- Nav section end -->
+            <!-- header section -->
+            <div class="header-div">
+                <img class="header-img" src="../images-and-videos/header-img.jpg" alt="">
+            </div>
+            <!-- video and Icon button section ( Content dynamically rendered) -->
+            <div class="vidIconBtn">
+                <div class="video-container"></div>
+                <div class="icon-div">
+                    <i class="fas fa-chevron-circle-right btn-slide"></i>
+                </div>
+            </div> 
+            <!-- sliding div section ( Content dynamically rendered) -->
+            <div class="slidevideo-container" id="slide-left"></div>
+            <!-- sliding div end -->
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="column-1">
+                        <a href="#home"><p>About us</p></a>
+                        <a href="#home"><p>Contact us</p></a>
+                        <a href="#home"><p>Send Feedback</p></a>
+                        <a href="#home"><p>Careers</p></a>
+                        <a href="#home"><p>Blog</p></a>
+                    </div>
+                    <div class="column-2">
+                        <a href="#home"><p>Terms</p></a>
+                        <a href="#home"><p>Privacy Policy</p></a>
+                        <a href="#home"><p>Sitemap</p></a>
+                        <a href="#home"><p>Featured Videos</p></a>
+                        <a href="#home"><p>Help and Support</p></a>
+                    </div>
+                    <div class="copyright-div">
+                        <p class="footer-copyright">&copy; Copyright 2021 xyz</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
