@@ -19,7 +19,7 @@ let data = [{
     id:"1",
     link:"show.html",
     img: "../images-and-videos/image6.jpg",
-    title:"Class 10 Complete Maths Explainer Videos",
+    title:"Class 10 Complete Science Videos",
     author:"Colt Steele",
     downloads:"4000",
     price:"50"
@@ -28,7 +28,7 @@ let data = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image5.jpg",
-    title:"Class 10 Complete Maths Explainer Videos",
+    title:"Class 10 Complete Maths Videos",
     author:"Jay",
     downloads:"5000",
     price:"10" 
@@ -37,7 +37,7 @@ let data = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image 2.jpg",
-    title:"Class 10 Complete Maths Explainer Videos",
+    title:"Class 10 Complete Social Videos",
     author:"John",
     downloads:"7000",
     price:"100" 
@@ -46,7 +46,7 @@ let data = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image5.jpg",
-    title:"Class 10 Complete Maths Explainer Videos",
+    title:"Class 10 Complete Hindi Videos",
     author:"John",
     downloads:"7000",
     price:"100" 
@@ -57,7 +57,7 @@ let slideData = [{
     id:"1",
     link:"show.html",
     img: "../images-and-videos/image5.jpg",
-    title:"Class 7 Complete Maths Explainer Videos",
+    title:"Class 7 Complete Science Videos",
     author:"Colt Steele",
     downloads:"4000",
     price:"50"
@@ -66,7 +66,7 @@ let slideData = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image 2.jpg",
-    title:"Class 7 Complete Maths Explainer Videos",
+    title:"Class 7 Complete Maths Videos",
     author:"John",
     downloads:"5000",
     price:"100" 
@@ -75,7 +75,7 @@ let slideData = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image5.jpg",
-    title:"Class 7 Complete Maths Explainer Videos",
+    title:"Class 7 Complete Maths Videos",
     author:"Jay",
     downloads:"7000",
     price:"100" 
@@ -84,7 +84,7 @@ let slideData = [{
     id:"3",
     link:"show.html",
     img: "../images-and-videos/image 2.jpg",
-    title:"Class 7 Complete Maths Explainer Videos",
+    title:"Class 7 Complete Maths Videos",
     author:"Jay",
     downloads:"7000",
     price:"50" 
