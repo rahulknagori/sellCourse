@@ -26,7 +26,7 @@ let data = [{
 },
 {
     id:"3",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image5.jpg",
     title:"Class 10 Complete Maths Videos",
     author:"Jay",
@@ -35,7 +35,7 @@ let data = [{
 },
 {
     id:"3",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image 2.jpg",
     title:"Class 10 Complete Social Videos",
     author:"John",
@@ -44,7 +44,7 @@ let data = [{
 },
 {
     id:"3",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image5.jpg",
     title:"Class 10 Complete Hindi Videos",
     author:"John",
@@ -55,7 +55,7 @@ let data = [{
 // looping sliding data
 let slideData = [{
     id:"1",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image5.jpg",
     title:"Class 7 Complete Science Videos",
     author:"Colt Steele",
@@ -64,7 +64,7 @@ let slideData = [{
 },
 {
     id:"3",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image 2.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"John",
@@ -73,7 +73,7 @@ let slideData = [{
 },
 {
     id:"3",
-    link:"show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image5.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"Jay",
@@ -82,7 +82,7 @@ let slideData = [{
 },
 {
     id:"3",
-    link:"../public/HTML/show.html",
+    link:"./public/HTML/show.html",
     img: "../public/images-and-videos/image 2.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"Jay",
