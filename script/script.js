@@ -17,8 +17,8 @@ for(let eachItem of arr){
 // when button is clicked load the details of the div as an inner html inside inner
 let data = [{
     id:"1",
-    link:"index.html/public/HTML/show.html",
-    img: "index.html/public/images-and-videos/image6.jpg",
+    link:"./public/HTML/show.html",
+    img: "./public/images-and-videos/image6.jpg",
     title:"Class 10 Complete Science Videos",
     author:"Colt Steele",
     downloads:"4000",
