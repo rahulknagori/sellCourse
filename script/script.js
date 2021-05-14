@@ -17,8 +17,8 @@ for(let eachItem of arr){
 // when button is clicked load the details of the div as an inner html inside inner
 let data = [{
     id:"1",
-    link:"show.html",
-    img: "../images-and-videos/image6.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image6.jpg",
     title:"Class 10 Complete Science Videos",
     author:"Colt Steele",
     downloads:"4000",
@@ -26,8 +26,8 @@ let data = [{
 },
 {
     id:"3",
-    link:"show.html",
-    img: "../images-and-videos/image5.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image5.jpg",
     title:"Class 10 Complete Maths Videos",
     author:"Jay",
     downloads:"5000",
@@ -35,8 +35,8 @@ let data = [{
 },
 {
     id:"3",
-    link:"show.html",
-    img: "../images-and-videos/image 2.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image 2.jpg",
     title:"Class 10 Complete Social Videos",
     author:"John",
     downloads:"7000",
@@ -44,8 +44,8 @@ let data = [{
 },
 {
     id:"3",
-    link:"show.html",
-    img: "../images-and-videos/image5.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image5.jpg",
     title:"Class 10 Complete Hindi Videos",
     author:"John",
     downloads:"7000",
@@ -55,8 +55,8 @@ let data = [{
 // looping sliding data
 let slideData = [{
     id:"1",
-    link:"show.html",
-    img: "../images-and-videos/image5.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image5.jpg",
     title:"Class 7 Complete Science Videos",
     author:"Colt Steele",
     downloads:"4000",
@@ -64,8 +64,8 @@ let slideData = [{
 },
 {
     id:"3",
-    link:"show.html",
-    img: "../images-and-videos/image 2.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image 2.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"John",
     downloads:"5000",
@@ -74,7 +74,7 @@ let slideData = [{
 {
     id:"3",
     link:"show.html",
-    img: "../images-and-videos/image5.jpg",
+    img: "../public/images-and-videos/image5.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"Jay",
     downloads:"7000",
@@ -82,8 +82,8 @@ let slideData = [{
 },
 {
     id:"3",
-    link:"show.html",
-    img: "../images-and-videos/image 2.jpg",
+    link:"../public/HTML/show.html",
+    img: "../public/images-and-videos/image 2.jpg",
     title:"Class 7 Complete Maths Videos",
     author:"Jay",
     downloads:"7000",
